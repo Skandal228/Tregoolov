@@ -1,5 +1,5 @@
 package ClassWork.Lesson6;
-
+// Примеры будут с одним return type//
 public class MethodOverloding {
 // Для начала просто создадим метод для вывода типа данных int на экран//
 
@@ -17,6 +17,15 @@ void showBoolean (boolean b1){
     void showString(String s1){
         System.out.println(s1);
     }
+// Создадим по сложнее метод//
+void show (String s, int a ) {
+    System.out.println("String :" + s+ " " + "int :" + a);
+}
+// И такой же метод //
+    void show (int a, String s ){
+        System.out.println("Kakoy horoshiy den");
+    }
+
 }
 
 class MethodOverlodingTest {
@@ -31,6 +40,7 @@ class MethodOverlodingTest {
         // Также как и предыдущие создаем переменную к методу String //
         String s = "Privet";
         mO.showString(s);
+        mO.show("privet", 10);
 
         // Заключение и вывод этих методов не рацилнальное использование. Потому что все эти методы что-то выводят на экран. Т.е. если допустим у нас может быть помимо
         // этих методов еще 50 мы можем запутаться и вызвать не тот метод который мне нужен.
