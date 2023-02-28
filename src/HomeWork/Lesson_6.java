@@ -4,8 +4,7 @@ package HomeWork;
 // (т.е. когда параметров нет) сумма пусть равнятся 0.
 // 2. Измените класс student, чтобы имел 3 конструктора. 1-ый принимает все параметры. 2-ой только id, name, surname, corse.
 // 3-тий не принимает значений. Создайте в StudentTest 3 объекта с помощью разных конструкторов.
-public class Lesson_6 {
-    public static void main (String [] args){
 
-    }
+public class Lesson_6 {
+
 }
