@@ -1,4 +1,4 @@
-package HomeWork;
+package HomeWork.Lesson_3;
 // Домашнее задание :
 // 1. Вычислите следующую часть кода: int i1 = 5; int i2 =11; double d1= 5.5; double d2 =1.3; long l =20l;
 // resoult = i2/d1+d2%i1-l;
