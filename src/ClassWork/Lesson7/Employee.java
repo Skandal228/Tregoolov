@@ -5,7 +5,7 @@ public class Employee {
     public void dvoynayaZP (){
         System.out.println("Novaya z/p= "+ salary*2);
     }
-public Employee (double salary2){
+ public Employee (double salary2){
         salary=salary2;
 }
 
