@@ -21,10 +21,10 @@ class Lesson6Test{
     public static void main(String[] args) {
         Lesson_6 less = new Lesson_6 ();
 
-        System.out.println (less.sum(0));
-        System.out.println (less.sum1(1, 2));
-        System.out.println (less.sum2(3,4,5));
-        System.out.println (less.sum3(6,7,8,9));
+        System.out.println ("Summa vseh chisel " + less.sum(0));
+        System.out.println ("Summa vseh chisel "+ less.sum1(1, 2));
+        System.out.println ("Summa vseh chisel "+ less.sum2(3,4,5));
+        System.out.println ("Summa vseh chisel " +less.sum3(6,7,8,9));
 
     }
 }
