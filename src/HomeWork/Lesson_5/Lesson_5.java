@@ -98,7 +98,7 @@ class Student1 {
 // 3. Создайте класс Employee c атрибутами id, surname, age, salary, departament,  которые должны задаваться в конструкторе.
 // В данном классе также создайте метод увеличения ЗП вдвое. Создайте 2ой класс EmployeeTest, в котором создайте 2 обьекта класса Emploee.
 // Увеличте зарплату в двое каждому работнику с помощью метода и вывести на экран значение новой зарплаты.
-class Employee {
+class Employee1 {
     //Создается переменные класса.
     int id;
     String surname;
@@ -106,7 +106,7 @@ class Employee {
     double salary;
     String departament;
     /// Далее создается конструктор называется также, как класс.
-    Employee(int id2, String surname2, int age2, double salary2, String departament2) {
+     Employee1(int id2, String surname2, int age2, double salary2, String departament2) {
         //Далее значения присваиваются к переменным.
         id = id2;
         surname = surname2;
@@ -121,10 +121,10 @@ class Employee {
     }
 }
 
-class EmployeeTest {
+class Employee1Test {
     public static void main (String [] args){
-         Employee emp1 = new Employee(1, "Ivanov", 25, 555.55, "it");
-         Employee emp2 = new Employee(2, "Petrov", 30, 888.88, "sales");
+         Employee1 emp1 = new Employee1(1, "Ivanov", 25, 555.55, "it");
+         Employee1 emp2 = new Employee1(2, "Petrov", 30, 888.88, "sales");
 
          emp1.uvelichenieZP();
          System.out.println("Novaya ZP rabotnica " + emp1.surname + ": "+ emp1.salary);
