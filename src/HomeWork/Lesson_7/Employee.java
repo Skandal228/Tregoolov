@@ -35,9 +35,13 @@ public class Employee {
 
 class EmployeeTest {
     public static void main(String[] args) {
-          Employee emp1 = new Employee(1, "Ivanov", 25, "Zakupki", 350);
+        Employee emp1 = new Employee(1, "Ivanov", 25, "Zakupki", 350);
+        Employee emp2 = new Employee(12, "Huesosov" );
+        Employee emp3 = new Employee(66, "Raspizdyaev", "IT");
 
-        //  System.out.println(emp1.id +".Фамилия: "+ emp1.surname +" возраст "+ emp1.age+ " отдел "+ emp1.departament + " "+ emp1.salary);  Ошибка! т.к. access modifier private в классе salary скрыт.
+       // System.out.println(emp1.id +".Фамилия: "+ emp1.surname +" возраст "+ emp1.age+ " отдел "+ emp1.departament + " "+ emp1.salary); // Ошибка! т.к. access modifier private в классе salary скрыт.
+        System.out.println(emp2.id +".Фамилия: "+ emp2.surname);
+        System.out.println(emp3.id +".Фамилия: "+ emp3.surname + " отдел "+ emp1.departament);
 
     }
 }
