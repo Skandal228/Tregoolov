@@ -1,12 +1,12 @@
 package HomeWork.Lesson_9;
-
+/* Вычмслите устно output-ы данных программ, а затем проверьте в компиляторе. */
 public class Zadacha2 {
 
 }
 
 class Test1 {
     int a = 1;
-    static int a = 2;
+   // static int a = 2;
 
     void abc(int a) {
         System.out.println(a);
