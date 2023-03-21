@@ -17,9 +17,7 @@ OUTER:
                     for (int seconds = 0; seconds <= 59; seconds++) {
                 if (seconds*hours>minutes){continue MIDLE;}
                 System.out.println(hours + ":" + minutes + ":" + seconds);}
-
-
-                }
+            }
             }
         }
         public static void main(String[] args) {
