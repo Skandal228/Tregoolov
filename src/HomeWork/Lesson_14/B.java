@@ -11,16 +11,20 @@ OUTER:
         for (int hours = 0; hours <= 6; hours++) {
             MIDLE:
             for (int minutes = 0; minutes <= 60; minutes++) {
-                if (hours >= 1 && minutes %10==0)  // кратна значит % без остатка
-                {break OUTER;}
+                if (hours >= 1 && minutes %10==0){  // кратна значит % без остатка
+                    break OUTER;
+                }
                     INEER:
                     for (int seconds = 0; seconds <= 59; seconds++) {
-                if (seconds*hours>minutes){continue MIDLE;}
+                if (seconds*hours>minutes){
+                    continue MIDLE;
+                }
                 System.out.println(hours + ":" + minutes + ":" + seconds);}
             }
             }
         }
         public static void main(String[] args) {
+
         time();
         }
     }
