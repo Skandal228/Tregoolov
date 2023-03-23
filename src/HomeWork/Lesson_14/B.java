@@ -10,8 +10,8 @@ public class B {
 OUTER:
         for (int hours = 0; hours <= 6; hours++) {
             MIDLE:
-            for (int minutes = 0; minutes <= 60; minutes++) {
-                if (hours >= 1 && minutes %10==0){  // кратна значит % без остатка
+            for (int minutes = 0; minutes < 60; minutes++) {
+                if (hours > 1 && minutes %10==0){  // кратна значит % без остатка
                     break OUTER;
                 }
                     INEER:
