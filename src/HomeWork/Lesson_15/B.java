@@ -14,24 +14,24 @@ public class B {
 
            MIDLE:
            do {
-               minute++;
+              minute++;
 
-               if (hour > 1 && minute % 10 == 0) {
-                   break OUTER;
-               }
+              if (hour >= 1 && minute % 10 == 0) {
+                  break OUTER;
+              }
 
-               int second = 0;
+              int second = 0;
 
-               INNER:
-               while (second < 60) {
-                   if (second * hour > minute) {
-                       continue MIDLE;
-                   }
-                   System.out.println(hour + ":" + minute + ":" + second);
-                   second++;
-               }
+              INNER:
+              while (second < 60) {
+                  if (second * hour > minute) {
+                      continue MIDLE;
+                  }
+                      System.out.println(hour + ":" + minute + ":" + second);
+                      second++;
+                  }
 
-           }while (minute < 59) ;
+              } while (minute < 59) ;
               hour++;
 
           }
