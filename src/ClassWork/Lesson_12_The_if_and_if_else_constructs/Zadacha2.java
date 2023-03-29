@@ -11,15 +11,13 @@ public class Zadacha2 {
         Scanner sc1 = new Scanner(System.in);
         String name = sc1.nextLine();
         int age =sc1.nextInt();
-        if (age>=18){
-            if (age<=28){
-                System.out.println(name + militaryCommissar );
+        if (age>=18 && age<=28){
+            System.out.println(name + militaryCommissar );
             }
             else {
                 System.out.println("Вам не требуется явка.");
             }
+    }
+    }
 
-    }
-    }
-    }
 
